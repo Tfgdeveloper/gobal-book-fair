@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import {
   ArrowLeft, Calendar, MapPin, CheckCircle2, Clock, ArrowRight,
-  Users, ExternalLink, ArrowUpRight,
+  Users,  ArrowUpRight,
 } from "lucide-react";
 
 import { getExhibitionBySlug, EXHIBITIONS } from "../data/adaptExhibitions";
