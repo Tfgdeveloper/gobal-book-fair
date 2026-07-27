@@ -123,7 +123,7 @@ function Hero() {
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
-      <div className="relative h-[560px] overflow-hidden sm:h-[520px] lg:h-[600px]">
+      <div className="relative h-[560px] overflow-hidden sm:h-[520px] lg:h-[700px]">
         <div
           className="flex h-full transition-transform duration-700 ease-in-out"
           style={{ width: `${slides.length * 100}%`, transform: `translateX(-${index * (100 / slides.length)}%)` }}
@@ -447,12 +447,20 @@ function Timeline({ filtersApi }: { filtersApi: UseExhibitionFiltersResult }) {
                         </div>
                       </div>
                     </div>
-                    <Link
-                      to={`/exhibitions/${e.slug}`}
-                      className="inline-flex items-center gap-1.5 self-start rounded-md border border-border px-3 py-1.5 text-xs font-semibold text-navy hover:bg-muted transition-colors sm:self-auto"
-                    >
-                      Details <ChevronRight className="h-3.5 w-3.5" />
-                    </Link>
+                    <div className="flex shrink-0 gap-2 self-start sm:self-auto">
+                      <Link
+                        to={`/exhibitions/${e.slug}`}
+                        className="inline-flex items-center gap-1.5 rounded-md border border-border px-3 py-1.5 text-xs font-semibold text-navy hover:bg-muted transition-colors"
+                      >
+                        Details <ChevronRight className="h-3.5 w-3.5" />
+                      </Link>
+                      <Link
+                        to={`/register?fair=${e.slug}`}
+                        className="inline-flex items-center gap-1.5 rounded-md bg-navy px-3 py-1.5 text-xs font-semibold text-cream hover:bg-navy-deep transition-colors"
+                      >
+                        Register now
+                      </Link>
+                    </div>
                   </li>
                 ))}
               </ol>
@@ -621,8 +629,8 @@ export function Footer() {
     {
       title: "Legal",
       links: [
-        { label: "Terms", href: "#" },
-        { label: "Privacy", href: "#" },
+        { label: "Terms", href: "/terms" },
+        { label: "Privacy", href: "/privacy" },
       ],
     },
   ];

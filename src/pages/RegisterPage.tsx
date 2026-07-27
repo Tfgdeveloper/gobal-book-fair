@@ -124,29 +124,7 @@ export default function RegisterPage() {
 
         <form onSubmit={handleSubmit} noValidate className="mt-10 space-y-6">
           {/* Role */}
-          <fieldset>
-            <legend className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Registering as</legend>
-            <div className="mt-2 grid grid-cols-2 gap-3">
-              {(["author", "publisher"] as Role[]).map((r) => (
-                <label
-                  key={r}
-                  className={`cursor-pointer rounded-md border px-4 py-2.5 text-center text-sm font-medium capitalize transition-colors ${
-                    form.role === r ? "border-navy bg-navy text-cream" : "border-border text-charcoal hover:bg-muted"
-                  }`}
-                >
-                  <input
-                    type="radio"
-                    name="role"
-                    value={r}
-                    checked={form.role === r}
-                    onChange={() => set("role", r)}
-                    className="sr-only"
-                  />
-                  {r}
-                </label>
-              ))}
-            </div>
-          </fieldset>
+       
 
           {/* Full name */}
           <TextField

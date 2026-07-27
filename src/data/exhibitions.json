@@ -8,14 +8,18 @@
     "start_date": "2026-10-07",
     "end_date": "2026-10-11",
     "status": "confirmed",
+    "image": "frankfurt-book-fair-2026.jpg",
+    "official_website": "https://www.buchmesse.de/en",
     "summary": "The world's largest book fair and a global hub for publishing, rights sales, and international networking.",
+    "description": "Organized by Frankfurter Buchmesse GmbH, the 2026 edition is expected to draw more than 230,000 visitors and over 4,300 exhibitors from upwards of 90 countries. The first three days are reserved for trade professionals, with the public admitted on the final weekend. Czechia is the 2026 Guest of Honour.",
+    "visitor_info": "Trade-only Wednesday–Friday, open to the public Saturday–Sunday. The public ticket shop opens in summer 2026 at buchmesse.de/en/visit.",
     "audience": ["publishers", "agents", "distributors", "rights professionals"],
     "tags": ["book fair", "rights", "international", "publishing"],
-    "highlights": ["World’s largest book fair", "Held in mid-October", "Strong rights and trade focus"],
+    "highlights": ["World's largest book fair", "Held in mid-October", "Strong rights and trade focus"],
     "source_urls": [
-      "https://www.combinedbook.com/book-shows/2026-frankfurt-international-book-fair/",
+      "https://www.buchmesse.de/en/visit",
       "https://www.buchmesse.de/en/exhibit/information-exhibitors/book-fair-year",
-      "https://en.instaff.jobs/exhibitions/2026/frankfurt/frankfurter-buchmesse-2026/13449"
+      "https://www.combinedbook.com/book-shows/2026-frankfurt-international-book-fair/"
     ]
   },
   {
@@ -23,18 +27,22 @@
     "event_name": "Sharjah International Book Fair",
     "country": "United Arab Emirates",
     "city": "Sharjah",
-    "venue": "Sharjah",
+    "venue": "Expo Centre Sharjah",
     "start_date": "2026-11-04",
     "end_date": "2026-11-14",
     "status": "confirmed",
+    "image": "sharjah-international-book-fair-2026.jpg",
+    "official_website": "https://www.sibf.com/en/home",
     "summary": "A major international book fair in Sharjah with a strong public and publishing focus.",
+    "description": "Organized by the Sharjah Book Authority since 1982, SIBF is regularly cited as one of the world's largest and most-attended book fairs, drawing well over 2 million visitors and more than 1,400 publishing houses each year, with books spanning more than 200 languages.",
+    "visitor_info": "Ticketing and visitor guidelines are published on sibf.com ahead of each edition.",
     "audience": ["readers", "publishers", "authors", "rights professionals"],
     "tags": ["book fair", "uae", "international", "publishing"],
     "highlights": ["One of the largest book fairs in the region", "Public-facing and trade-relevant", "Runs for 11 days"],
     "source_urls": [
-      "https://www.combinedbook.com/book-shows/",
-      "https://blog.kotobee.com/international-book-fairs-2026/",
-      "https://www.ibby.org/ibby-worldwide/books-fairs-and-other-events"
+      "https://en.wikipedia.org/wiki/Sharjah_International_Book_Fair",
+      "https://www.moet.gov.ae/en/-/sharjah-international-book-fair",
+      "https://expo-centre.ae/event/sharjah-international-book-fair/"
     ]
   },
   {
@@ -42,18 +50,22 @@
     "event_name": "Guadalajara International Book Fair (FIL)",
     "country": "Mexico",
     "city": "Guadalajara",
-    "venue": "Guadalajara",
+    "venue": "Expo Guadalajara",
     "start_date": "2026-11-28",
     "end_date": "2026-12-06",
     "status": "confirmed",
+    "image": "guadalajara-international-book-fair-fil-2026.jpg",
+    "official_website": "https://www.fil.com.mx/ingles/",
     "summary": "A major international book fair in Guadalajara and one of the most important publishing events in the Americas.",
+    "description": "Founded in 1987 by the University of Guadalajara, FIL is the largest book fair in the Americas and the second-largest in the world after Frankfurt. The 2025 edition drew more than 950,000 visitors and 18,400 publishing professionals from 64 countries; Italy is the 2026 Guest of Honour.",
+    "visitor_info": "The public cannot enter during professional-only hours; full visitor details are published at fil.com.mx.",
     "audience": ["publishers", "agents", "authors", "readers"],
     "tags": ["book fair", "mexico", "publishing", "rights"],
     "highlights": ["Major publishing market event", "Spans late November into December", "Large international attendance"],
     "source_urls": [
-      "https://www.ibby.org/ibby-worldwide/books-fairs-and-other-events",
-      "https://blog.kotobee.com/international-book-fairs-2026/",
-      "https://www.publishersweekly.com/pw/by-topic/international/trade-shows/archive.html"
+      "https://www.fil.com.mx/ingles/",
+      "https://en.wikipedia.org/wiki/Guadalajara_International_Book_Fair",
+      "https://www.publishersweekly.com/pw/by-topic/international/trade-shows/article/99326-guadalajara-s-fil-breaks-attendance-records-in-homage-to-catalonia.html"
     ]
   },
   {
@@ -61,17 +73,22 @@
     "event_name": "Gothenburg Book Fair",
     "country": "Sweden",
     "city": "Gothenburg",
-    "venue": "Gothenburg",
+    "venue": "Swedish Exhibition & Congress Centre",
     "start_date": "2026-09-24",
     "end_date": "2026-09-27",
     "status": "confirmed",
+    "image": "gothenburg-book-fair-2026.jpg",
+    "official_website": "https://goteborg-bookfair.com/",
     "summary": "The Nordic region's largest meeting place for the written word.",
+    "description": "Held at the Swedish Exhibition & Congress Centre, this is widely described as the largest cultural event in the Nordic region, drawing roughly 95,000 visits, 770+ exhibitors and attendees from 35+ countries. Québec is the 2026 Guest of Honour, with programme themes on popular adult education and games.",
+    "visitor_info": "Four-day event; tickets and the full programme are published at goteborg-bookfair.com.",
     "audience": ["readers", "publishers", "authors", "educators"],
     "tags": ["book fair", "sweden", "nordic", "literature"],
-    "highlights": ["Nordic region’s largest meeting place for the written word", "Strong literary and publishing presence"],
+    "highlights": ["Nordic region's largest meeting place for the written word", "Strong literary and publishing presence"],
     "source_urls": [
-      "https://www.goteborg.com/en/events/gothenburg-book-fair/",
-      "https://2seasagency.com/international-book-fair-calendar/"
+      "https://goteborg-bookfair.com/",
+      "https://international.bokmassan.se/",
+      "https://www.goteborg.com/en/events/gothenburg-book-fair"
     ]
   },
   {
@@ -79,18 +96,22 @@
     "event_name": "Beijing International Book Fair (BIBF)",
     "country": "China",
     "city": "Beijing",
-    "venue": "Beijing",
-    "start_date": "2026-08-26",
-    "end_date": "2026-08-30",
+    "venue": "China National Convention Center",
+    "start_date": "2026-06-17",
+    "end_date": "2026-06-21",
     "status": "confirmed",
+    "image": "beijing-international-book-fair-bibf-2026.jpg",
+    "official_website": "https://www.bibf.net/en/",
     "summary": "A major publishing and rights event in Beijing with strong international participation.",
+    "description": "Founded in 1986 and hosted by China National Publications Import & Export (Group) Co., BIBF is widely described as the world's second-largest book fair and Asia's most international, hosting several thousand exhibitors from more than 90 countries.",
+    "visitor_info": "Held at the China National Convention Center; visitor details published at bibf.net.",
     "audience": ["publishers", "agents", "rights professionals", "industry visitors"],
     "tags": ["book fair", "china", "publishing", "rights"],
-    "highlights": ["Major rights and publishing event", "International industry participation", "Held in late August"],
+    "highlights": ["Second-largest book fair in the world", "International industry participation"],
     "source_urls": [
-      "https://www.ibby.org/ibby-worldwide/books-fairs-and-other-events",
-      "https://citiofbooks.com/international-book-exhibit/",
-      "https://www.combinedbook.com/book-shows/"
+      "https://www.bibf.net/en/",
+      "https://www.jetro.go.jp/en/database/j-messe/tradefair/detail/159075",
+      "https://internationalpublishers.org/beijing-international-book-fair-china-2/"
     ]
   },
   {
@@ -98,86 +119,92 @@
     "event_name": "Hong Kong Book Fair",
     "country": "Hong Kong",
     "city": "Hong Kong",
-    "venue": "Hong Kong",
+    "venue": "Hong Kong Convention and Exhibition Centre",
     "start_date": "2026-07-15",
     "end_date": "2026-07-21",
     "status": "verified",
+    "image": "hong-kong-book-fair-2026.jpg",
+    "official_website": "https://www.hktdc.com/event/hkbookfair/en",
     "summary": "A major public and international book fair in Hong Kong.",
+    "description": "Organized annually by the Hong Kong Trade Development Council since 1990, this is one of the city's biggest cultural events, historically drawing attendance from the hundreds of thousands up to over a million. The 2026 theme is 'Cultural Legacy | Joyful Journeys.'",
+    "visitor_info": "Standard admission is HK$30. Hours run 10am–10pm most days, with a shorter final day.",
     "audience": ["readers", "publishers", "authors", "general public"],
     "tags": ["book fair", "hong kong", "public", "international"],
     "highlights": ["Large public book fair", "International participation", "Summer event"],
     "source_urls": [
-      "https://www.ibby.org/ibby-worldwide/books-fairs-and-other-events",
-      "https://citiofbooks.com/international-book-exhibit/"
+      "https://www.hktdc.com/event/hkbookfair/en",
+      "https://www.discoverhongkong.com/eng/events/event.id86664.hktdc-hong-kong-book-fair-36th-edition-.html",
+      "https://en.wikipedia.org/wiki/Hong_Kong_Book_Fair"
     ]
   },
-  {
-    "slug": "colombo-international-book-fair-2026",
-    "event_name": "Colombo International Book Fair",
-    "country": "Sri Lanka",
-    "city": "Colombo",
-    "venue": "Colombo",
-    "start_date": "2026-09-21",
-    "end_date": "2026-09-30",
-    "status": "confirmed",
-    "summary": "A major public book fair in Colombo with a long-running tradition.",
-    "audience": ["readers", "authors", "publishers", "students"],
-    "tags": ["book fair", "sri lanka", "public", "publishing"],
-    "highlights": ["Long-running fair", "Broad public audience", "Runs through late September"],
-    "source_urls": [
-      "https://2seasagency.com/international-book-fair-calendar/"
-    ]
-  },
+
   {
     "slug": "brooklyn-book-festival-2026",
     "event_name": "Brooklyn Book Festival",
     "country": "United States",
     "city": "New York",
-    "venue": "Brooklyn",
+    "venue": "Brooklyn Borough Hall, Downtown Brooklyn",
     "start_date": "2026-09-20",
     "end_date": "2026-09-28",
     "status": "confirmed",
+    "image": "brooklyn-book-festival-2026.jpg",
+    "official_website": "https://brooklynbookfestival.org/",
     "summary": "A major literary festival in Brooklyn featuring authors, readers, and community programming.",
+    "description": "Founded in 2006, this free festival is the largest literary event on the East Coast, with the main Festival Day (Sep 27, 2026) at Brooklyn Borough Hall drawing 500+ authors and 250+ publishers, plus a Children's Day and a week of satellite 'Bookend' events across all five NYC boroughs.",
+    "visitor_info": "Free and open to the public; Festival Day is September 27, Children's Day is September 26.",
     "audience": ["readers", "authors", "families", "community"],
     "tags": ["festival", "new york", "literature", "community"],
     "highlights": ["Popular literary festival", "Large community focus", "Multiple event days"],
     "source_urls": [
-      "https://www.brooklynbookfestival.org/",
-      "https://www.c-span.org/bookTv/?bookfairs"
+      "https://brooklynbookfestival.org/",
+      "https://bookevents.nyc/blog/book-festivals",
+      "https://en.wikipedia.org/wiki/Brooklyn_Book_Festival"
     ]
   },
   {
     "slug": "belgrade-international-book-fair-2026",
-    "event_name": "Belgrade International Book Fair",
+    "event_name": "International Belgrade Book Fair",
     "country": "Serbia",
     "city": "Belgrade",
-    "venue": "Belgrade",
-    "start_date": "2026-10-17",
-    "end_date": "2026-10-25",
+    "venue": "Belgrade Fair (Beogradski sajam)",
+    "start_date": "2026-10-23",
+    "end_date": "2026-10-31",
     "status": "confirmed",
+    "image": "belgrade-international-book-fair-2026.jpg",
+    "official_website": "https://sajam.rs/en/calendar-2026/book-fair/",
     "summary": "A major international book fair in Belgrade held in late October.",
+    "description": "The most-visited cultural event in Serbia, drawing publishers from across Europe, Asia, Africa and the Americas. The 2026 edition is the 69th, with Tunisia as Guest of Honour.",
+    "visitor_info": "Nine-day event at Belgrade Fair; tickets available at the fair's cashier office or online.",
     "audience": ["readers", "authors", "publishers"],
     "tags": ["book fair", "serbia", "international", "publishing"],
     "highlights": ["Runs for nine days", "Important regional publishing event"],
     "source_urls": [
-      "https://2seasagency.com/international-book-fair-calendar/"
+      "https://sajam.rs/en/calendar-2026/book-fair/",
+      "https://sajam.rs/en/",
+      "https://www.fep-fee.eu/International-Belgrado-Book-Fair"
     ]
   },
   {
     "slug": "liber-international-book-fair-2026",
     "event_name": "Liber International Book Fair",
     "country": "Spain",
-    "city": "Madrid/Barcelona",
-    "venue": "Spain",
+    "city": "Barcelona",
+    "venue": "Fira de Barcelona, Gran Via",
     "start_date": "2026-09-29",
     "end_date": "2026-10-01",
     "status": "confirmed",
+    "image": "liber-international-book-fair-2026.jpg",
+    "official_website": "https://www.firabarcelona.com/en",
     "summary": "A major publishing fair in Spain focused on the book trade and rights industry.",
+    "description": "Liber is Spain's leading trade fair for the Spanish-language publishing sector, alternating each year between Madrid and Barcelona. The 2026 edition (44th) is in Barcelona, expecting around 250 exhibitors from 15+ countries and roughly 9,000 professional visitors.",
+    "visitor_info": "Trade-focused; professional visitors from over 60 countries typically attend across the three days.",
     "audience": ["publishers", "agents", "rights professionals", "industry visitors"],
     "tags": ["book fair", "spain", "publishing", "rights"],
-    "highlights": ["Publishing-focused fair", "Spans late September and early October"],
+    "highlights": ["Publishing-focused fair", "Spans late September and early October", "Alternates yearly between Madrid and Barcelona"],
     "source_urls": [
-      "https://2seasagency.com/international-book-fair-calendar/"
+      "https://www.firabarcelona.com/en/press-release/liber_s040/liber-2026-will-be-the-epicentre-of-the-publishing-business-at-fira-de-barcelona-this-september/",
+      "https://www.ifema.es/en/liber",
+      "https://www.eventseye.com/fairs/f-liber-barcelona-1703-1.html"
     ]
   },
   {
@@ -185,33 +212,45 @@
     "event_name": "Buch Wien",
     "country": "Austria",
     "city": "Vienna",
-    "venue": "Vienna",
-    "start_date": null,
-    "end_date": null,
-    "status": "listed",
-    "summary": "A listed book fair in Vienna.",
+    "venue": "Messe Wien, Halle D",
+    "start_date": "2026-11-25",
+    "end_date": "2026-11-29",
+    "status": "confirmed",
+    "image": "buch-wien-2026.jpg",
+    "official_website": "https://www.buchwien.at/",
+    "summary": "Austria's largest book fair, doubling as a citywide reading festival.",
+    "description": "Buch Wien combines a traditional book fair with a reading-festival week held across Vienna, featuring hundreds of exhibitors, 500+ authors and hundreds of events including the Austrian Book Prize ceremony. It opens with the 'Long Night of Books' the evening before the main fair.",
+    "visitor_info": "Day and festival passes are sold online at buchwien.at; recent editions drew 50,000+ visitors.",
     "audience": ["readers", "authors", "publishers"],
     "tags": ["book fair", "austria", "literature"],
-    "highlights": ["Listed in 2026 fair calendars"],
+    "highlights": ["Doubles as a citywide reading festival", "Austrian Book Prize awarded here"],
     "source_urls": [
-      "https://www.ibby.org/ibby-worldwide/books-fairs-and-other-events"
+      "https://www.buchwien.at/besucherinnen-infos/",
+      "https://en.wikipedia.org/wiki/Buch_Wien",
+      "https://www.tradefairdates.com/Buch-M1946/Vienna.html"
     ]
   },
   {
     "slug": "istanbul-book-fair-2026",
     "event_name": "Istanbul Book Fair",
-    "country": "Türkiye",
+    "country": "T\u00fcrkiye",
     "city": "Istanbul",
-    "venue": "Istanbul",
-    "start_date": null,
-    "end_date": null,
-    "status": "listed",
-    "summary": "A listed book fair in Istanbul.",
+    "venue": "T\u00dcYAP Fair, Convention & Congress Center",
+    "start_date": "2026-12-12",
+    "end_date": "2026-12-20",
+    "status": "confirmed",
+    "image": "istanbul-book-fair-2026.jpg",
+    "official_website": "https://istanbulkitapfuari.com/en/",
+    "summary": "One of Europe's largest and most-attended book fairs, held in Istanbul.",
+    "description": "Organized by TÜYAP with the Turkish Publishers Association, this is described as the fair with the widest reach to readers in Europe, historically drawing close to half a million visitors and over 1,000 participating publishing houses.",
+    "visitor_info": "Nine-day event at TÜYAP's Büyükçekmece venue; details published at istanbulkitapfuari.com.",
     "audience": ["readers", "authors", "publishers"],
     "tags": ["book fair", "turkiye", "international"],
-    "highlights": ["Listed in 2026 book fair calendars"],
+    "highlights": ["Nearly half a million visitors historically", "1,000+ publishing houses"],
     "source_urls": [
-      "https://2seasagency.com/international-book-fair-calendar/"
+      "https://istanbulkitapfuari.com/en/",
+      "https://www.expointurkey.org/istanbul-book-fair-2026",
+      "https://10times.com/istanbul-book-fair"
     ]
   },
   {
@@ -220,14 +259,20 @@
     "country": "Russia",
     "city": "Moscow",
     "venue": "Moscow",
-    "start_date": null,
-    "end_date": null,
+    "start_date": "2026-09-02",
+    "end_date": "2026-09-06",
     "status": "listed",
+    "image": "moscow-international-book-fair-2026.jpg",
+    "official_website": null,
     "summary": "A listed book fair in Moscow.",
+    "description": "Sources are inconsistent about which Moscow book event this refers to \u2014 the long-running Moscow International Book Fair (historically held at VDNKh, no confirmed 2026 date found) or the newer non/fiction fair at Gostiny Dvor (confirmed 29 Oct\u20131 Nov 2026). Please confirm which event this entry should track before publishing a date.",
+    "visitor_info": null,
     "audience": ["readers", "authors", "publishers"],
     "tags": ["book fair", "russia", "international"],
     "highlights": ["Listed in 2026 book fair calendars"],
     "source_urls": [
+      "https://moscowbookfair.ru/en/",
+      "http://mibf.info/english_main",
       "https://2seasagency.com/international-book-fair-calendar/"
     ]
   },
@@ -236,16 +281,22 @@
     "event_name": "Nairobi International Book Fair",
     "country": "Kenya",
     "city": "Nairobi",
-    "venue": "Nairobi",
+    "venue": "Sarit Centre Expo Hall, Westlands",
     "start_date": "2026-09-25",
     "end_date": "2026-09-30",
     "status": "confirmed",
+    "image": "nairobi-international-book-fair-2026.jpg",
+    "official_website": "http://www.kenyapublishers.org",
     "summary": "A major book fair in Nairobi listed for late September 2026.",
+    "description": "Organized by the Kenya Publishers' Association, NIBF is East Africa's regional marketplace for books, drawing over 26,000 visitors and exhibitors mainly from Africa alongside publishers from Asia, Europe and North America.",
+    "visitor_info": "Free entry; held at the Sarit Centre Expo Hall, Westlands.",
     "audience": ["readers", "authors", "publishers"],
     "tags": ["book fair", "kenya", "publishing"],
-    "highlights": ["Listed with confirmed September dates"],
+    "highlights": ["Listed with confirmed September dates", "Free entry", "26,000+ visitors historically"],
     "source_urls": [
-      "https://2seasagency.com/international-book-fair-calendar/"
+      "https://internationalpublishers.org/27th-nairobi-international-book-fair/",
+      "https://anydayguide.com/festival/1470-nairobi-international-book-fair",
+      "https://afkenya.org/etn/nairobi-international-book-fair/"
     ]
   },
   {
@@ -253,16 +304,22 @@
     "event_name": "Indonesia International Book Fair",
     "country": "Indonesia",
     "city": "Jakarta",
-    "venue": "Jakarta",
-    "start_date": null,
-    "end_date": null,
-    "status": "listed",
-    "summary": "A listed book fair in Jakarta.",
+    "venue": "Jakarta Convention Center",
+    "start_date": "2026-09-30",
+    "end_date": "2026-10-04",
+    "status": "confirmed",
+    "image": "indonesia-international-book-fair-2026.jpg",
+    "official_website": "https://indonesia-bookfair.com/",
+    "summary": "Indonesia's leading international book trade fair, held annually in Jakarta.",
+    "description": "Organized by the Indonesian Publishers Association (IKAPI) since 1980 and renamed 'International' in 2014, IIBF brings publishers, writers, librarians and educators together for book launches, seminars and a rotating guest-of-honour country programme.",
+    "visitor_info": "Held at the Jakarta Convention Center Assembly Hall; details at indonesia-bookfair.com.",
     "audience": ["readers", "authors", "publishers"],
     "tags": ["book fair", "indonesia", "publishing"],
-    "highlights": ["Listed in 2026 book fair calendars"],
+    "highlights": ["Organized by IKAPI since 1980", "Features a rotating Guest of Honour country"],
     "source_urls": [
-      "https://2seasagency.com/international-book-fair-calendar/"
+      "https://indonesia-bookfair.com/",
+      "https://en.wikipedia.org/wiki/Indonesia_International_Book_Fair",
+      "https://10times.com/e1dd-44kr-0zg6-g"
     ]
   },
   {
@@ -274,14 +331,18 @@
     "start_date": "2026-08-22",
     "end_date": "2026-08-22",
     "status": "confirmed",
+    "image": "national-book-festival-2026.jpg",
+    "official_website": "https://www.loc.gov/events/2026-national-book-festival/",
     "summary": "A major public literary festival hosted by the Library of Congress.",
+    "description": "The 26th annual festival, part of the Library's 'America 250' semiquincentennial programming, features conversations with more than 80 authors, poets and illustrators, plus expanded programming on film, music and folklife.",
+    "visitor_info": "Free and open to the public, but tickets are required (register at loc.gov). Runs 9am\u20138pm, doors open 8:30am. Select programs are livestreamed.",
     "audience": ["readers", "families", "authors", "general public"],
     "tags": ["festival", "public event", "authors", "literature"],
     "highlights": ["Free and open to the public", "Tickets are required", "Selected programs are livestreamed"],
     "source_urls": [
       "https://www.loc.gov/events/2026-national-book-festival/",
-      "https://newsroom.loc.gov/news/library-to-host-26th-national-book-festival-in-august-2026/s/81b2c74b-c263-46cc-b3ed-f91974bf4c8e",
-      "https://www.loc.gov/programs/national-book-festival/about-this-program/"
+      "https://www.loc.gov/events/2026-national-book-festival/festival-information/",
+      "https://blogs.loc.gov/bookmarked/2026/07/07/the-2026-national-book-festival-author-lineup-and-new-programming-to-celebrate-america-250/"
     ]
   },
   {
@@ -289,16 +350,22 @@
     "event_name": "Edinburgh International Book Festival",
     "country": "Scotland",
     "city": "Edinburgh",
-    "venue": "Edinburgh",
+    "venue": "Edinburgh Futures Institute",
     "start_date": "2026-08-15",
     "end_date": "2026-08-30",
     "status": "confirmed",
+    "image": "edinburgh-international-book-festival-2026.jpg",
+    "official_website": "https://www.edbookfest.co.uk/",
     "summary": "A literary festival in Edinburgh listed for August 2026.",
+    "description": "Often called the largest festival of its kind in the world, EIBF hosts nearly 600 events with writers from 41 countries, drawing around 162,000 visitors in its most recent edition. The 2026 theme is 'Changing Your Mind.'",
+    "visitor_info": "Free to enter; open daily 09:30\u201323:00 at Edinburgh Futures Institute.",
     "audience": ["readers", "writers", "publishing professionals"],
     "tags": ["festival", "literature", "scotland"],
-    "highlights": ["Listed with August dates in the calendar"],
+    "highlights": ["Largest festival of its kind in the world", "Free entry", "~600 events, authors from 41 countries"],
     "source_urls": [
-      "https://2seasagency.com/international-book-fair-calendar/"
+      "https://www.edbookfest.co.uk/",
+      "https://en.wikipedia.org/wiki/Edinburgh_International_Book_Festival",
+      "https://www.scotland.org/events/edinburgh-festivals/edinburgh-international-book-festival"
     ]
   },
   {
@@ -306,16 +373,22 @@
     "event_name": "Helsinki Book Fair",
     "country": "Finland",
     "city": "Helsinki",
-    "venue": "Helsinki",
+    "venue": "Messukeskus (Helsinki Expo and Convention Centre)",
     "start_date": "2026-10-22",
     "end_date": "2026-10-25",
     "status": "confirmed",
+    "image": "helsinki-book-fair-2026.jpg",
+    "official_website": "https://kirjamessut.messukeskus.com/en/",
     "summary": "A Helsinki book fair listed for late October 2026.",
+    "description": "Finland's most significant cultural event of its kind, the 2025 edition drew a record 104,000 visitors across four days. The 2026 theme is 'Language,' with an expanded programme on translation and world literature.",
+    "visitor_info": "Admission €14\u2013€35; tickets via the Messukeskus webshop. Open 10am\u20138pm most days.",
     "audience": ["readers", "authors", "publishers"],
     "tags": ["book fair", "finland", "publishing"],
-    "highlights": ["Listed with confirmed October dates"],
+    "highlights": ["Listed with confirmed October dates", "Finland's most-attended cultural event", "104,000 visitors in 2025 (record)"],
     "source_urls": [
-      "https://2seasagency.com/international-book-fair-calendar/"
+      "https://kirjamessut.messukeskus.com/en/",
+      "https://www.myhelsinki.fi/events/helsinki-book-fair/",
+      "https://kirjamessut.messukeskus.com/en/info/opening-hours-and-tickets/"
     ]
   },
   {
@@ -323,16 +396,22 @@
     "event_name": "Brive Book Fair",
     "country": "France",
     "city": "Brive-la-Gaillarde",
-    "venue": "Brive-la-Gaillarde",
-    "start_date": null,
-    "end_date": null,
-    "status": "listed",
+    "venue": "Halle Georges-Brassens & Espace des 3 Provinces",
+    "start_date": "2026-11-06",
+    "end_date": "2026-11-08",
+    "status": "confirmed",
+    "image": "brive-book-fair-2026.jpg",
+    "official_website": "https://www.foiredulivredebrive.net/",
     "summary": "A listed book fair in Brive-la-Gaillarde.",
+    "description": "Founded in 1984, this is one of France's major autumn literary events, drawing 80,000-90,000 visitors and around 500 authors over three days. General literature is hosted at Halle Georges-Brassens, with children's literature and comics at the Espace des 3 Provinces nearby.",
+    "visitor_info": "Free entry, no reservation needed for the main hall.",
     "audience": ["readers", "authors", "publishers"],
     "tags": ["book fair", "france", "literature"],
-    "highlights": ["Listed in 2026 book fair calendars"],
+    "highlights": ["One of France's major autumn literary events", "80,000+ visitors annually"],
     "source_urls": [
-      "https://2seasagency.com/international-book-fair-calendar/"
+      "https://www.foiredulivredebrive.net/",
+      "https://www.brive-tourisme.com/en/agenda-2/major-events/brive-book-fair/",
+      "https://www.tourismecorreze.com/fr/foire_du_livre_a_brive-la-gaillarde.html"
     ]
   },
   {
@@ -340,34 +419,45 @@
     "event_name": "Miami Book Fair",
     "country": "United States",
     "city": "Miami",
-    "venue": "Miami",
-    "start_date": null,
-    "end_date": null,
-    "status": "listed",
+    "venue": "Miami Dade College, Wolfson Campus",
+    "start_date": "2026-11-15",
+    "end_date": "2026-11-22",
+    "status": "confirmed",
+    "image": "miami-book-fair-2026.jpg",
+    "official_website": "https://miamibookfair.com/",
     "summary": "A major literary festival in Miami.",
+    "description": "An eight-day festival featuring 500+ authors and presenters in English, Spanish and Haitian Creole, held at Miami Dade College's downtown Wolfson Campus. The final weekend includes a free outdoor Street Fair with 250+ exhibitors.",
+    "visitor_info": "Street Fair is free; individual author events are ticketed separately.",
     "audience": ["readers", "authors", "families", "community"],
     "tags": ["festival", "miami", "literature"],
-    "highlights": ["Featured literary festival", "Listed in book festival calendars"],
+    "highlights": ["Trilingual programming (English, Spanish, Haitian Creole)", "Free outdoor Street Fair"],
     "source_urls": [
-      "https://www.bookreporter.com/book-festivals",
-      "https://texasbookfestival.org/"
+      "https://miamibookfair.com/",
+      "https://www.miamiandbeaches.com/event/miami-book-fair/8971",
+      "https://festmore.com/events/miami-book-fair-international-2026"
     ]
   },
   {
     "slug": "irish-book-festival-2026",
-    "event_name": "Irish Book Festival",
+    "event_name": "International Literature Festival Dublin",
     "country": "Ireland",
     "city": "Dublin",
-    "venue": "Dublin",
-    "start_date": null,
-    "end_date": null,
-    "status": "listed",
-    "summary": "A listed literary event in Dublin.",
+    "venue": "Merrion Square Park",
+    "start_date": "2026-05-15",
+    "end_date": "2026-05-24",
+    "status": "confirmed",
+    "image": "irish-book-festival-2026.jpg",
+    "official_website": "https://ilfdublin.com/",
+    "summary": "Ireland's premier literary event, held annually in Dublin.",
+    "description": "Founded in 1998, ILFD transforms Merrion Square into an open-air literary village for ten days, with over 215 events including talks, readings, workshops and a dedicated families programme. It also hosts the Dublin Literary Award ceremony.",
+    "visitor_info": "Most events are ticketed individually; check ilfdublin.com for the programme.",
     "audience": ["readers", "authors", "publishers"],
     "tags": ["festival", "ireland", "literature"],
-    "highlights": ["Listed in 2026 calendars"],
+    "highlights": ["215+ events over ten days", "Hosts the Dublin Literary Award"],
     "source_urls": [
-      "https://2seasagency.com/international-book-fair-calendar/"
+      "https://ilfdublin.com/",
+      "https://ilfdublin.com/updates/latestnews/2026-festival-programme-is-now-live/",
+      "https://dublin.ie/whats-on/listings/international-literature-festival-dublin/"
     ]
   },
   {
@@ -375,16 +465,22 @@
     "event_name": "BuchBasel",
     "country": "Switzerland",
     "city": "Basel",
-    "venue": "Basel",
-    "start_date": null,
-    "end_date": null,
-    "status": "listed",
+    "venue": "Various venues across Basel",
+    "start_date": "2026-11-13",
+    "end_date": "2026-11-15",
+    "status": "confirmed",
+    "image": "buchbasel-2026.jpg",
+    "official_website": "https://www.buchbasel.ch/",
     "summary": "A listed literary fair in Basel.",
+    "description": "Switzerland's largest curated international literature festival, built around the Swiss Book Award ceremony, with readings, political discussions, performances and digital-literature programming spread across multiple venues in Basel.",
+    "visitor_info": "Programme and tickets published at buchbasel.ch.",
     "audience": ["readers", "authors", "publishers"],
     "tags": ["literature", "switzerland", "festival"],
-    "highlights": ["Listed in 2026 calendars"],
+    "highlights": ["Switzerland's largest curated literature festival", "Hosts the Swiss Book Award"],
     "source_urls": [
-      "https://2seasagency.com/international-book-fair-calendar/"
+      "https://www.buchbasel.ch/de/%C3%BCber-uns/",
+      "https://www.bs.ch/veranstaltungen/internationales-literaturfestival-buchbasel",
+      "https://www.myswitzerland.com/en-us/experiences/events/buchbasel/"
     ]
   },
   {
@@ -392,16 +488,22 @@
     "event_name": "Singapore Writers Festival",
     "country": "Singapore",
     "city": "Singapore",
-    "venue": "Singapore",
-    "start_date": null,
-    "end_date": null,
-    "status": "listed",
+    "venue": "Civic District venues",
+    "start_date": "2026-11-13",
+    "end_date": "2026-11-22",
+    "status": "confirmed",
+    "image": "singapore-writers-festival-2026.jpg",
+    "official_website": "https://www.singaporewritersfestival.com/",
     "summary": "A listed literary festival in Singapore.",
+    "description": "One of Asia's premier literary festivals and one of the few multilingual ones in the world, celebrating Singapore's four official languages (English, Malay, Chinese, Tamil) across panel discussions, workshops and performances at venues around the Civic District.",
+    "visitor_info": "Festival passes and individual tickets available via singaporewritersfestival.com.",
     "audience": ["readers", "writers", "authors"],
     "tags": ["festival", "singapore", "literature"],
-    "highlights": ["Listed in 2026 calendars"],
+    "highlights": ["One of the few multilingual literary festivals in the world", "200+ programmes"],
     "source_urls": [
-      "https://2seasagency.com/international-book-fair-calendar/"
+      "https://www.singaporewritersfestival.com/",
+      "https://artshousegroup.sg/whats-on/festivals/singapore-writers-festival",
+      "https://www.nac.gov.sg/singapore-arts-scene/key-festivals-and-programmes/singapore-writers-festival"
     ]
   },
   {
@@ -409,16 +511,22 @@
     "event_name": "Malta Book Festival",
     "country": "Malta",
     "city": "Ta' Qali",
-    "venue": "Ta' Qali",
-    "start_date": null,
-    "end_date": null,
-    "status": "listed",
+    "venue": "Malta Fairs & Conventions Centre (MFCC)",
+    "start_date": "2026-11-04",
+    "end_date": "2026-11-08",
+    "status": "confirmed",
+    "image": "malta-book-festival-2026.jpg",
+    "official_website": "https://ktieb.org.mt/maltabookfestival/",
     "summary": "A listed publishing and literary event in Malta.",
+    "description": "Organized by the National Book Council, this is Malta's foremost book celebration and its 47th edition, drawing over 40,000 visitors and 40+ exhibitors, with past guest authors including Salman Rushdie and Anthony Horowitz.",
+    "visitor_info": "Programme and exhibitor list published at ktieb.org.mt.",
     "audience": ["readers", "authors", "publishers"],
     "tags": ["book festival", "malta", "publishing"],
-    "highlights": ["Listed in 2026 calendars"],
+    "highlights": ["Malta's largest book celebration", "40,000+ visitors annually"],
     "source_urls": [
-      "https://2seasagency.com/international-book-fair-calendar/"
+      "https://ktieb.org.mt/maltabookfestival/",
+      "https://www.gaolf.org/festivals/the-malta-book-festival/",
+      "https://rozie.app/malta-events-calendar-2026-your-complete-festival-guide/"
     ]
   },
   {
@@ -426,16 +534,22 @@
     "event_name": "Thessaloniki Book Fair",
     "country": "Greece",
     "city": "Thessaloniki",
-    "venue": "Thessaloniki",
-    "start_date": null,
-    "end_date": null,
-    "status": "listed",
+    "venue": "Thessaloniki International Exhibition Centre (TIF-HELEXPO)",
+    "start_date": "2026-05-07",
+    "end_date": "2026-05-10",
+    "status": "confirmed",
+    "image": "thessaloniki-book-fair-2026.jpg",
+    "official_website": "https://thessalonikibookfair.gr/",
     "summary": "A listed international book fair in Thessaloniki.",
+    "description": "Organized by the Hellenic Foundation for Books and Culture since 2004, this fair positions Thessaloniki as a cultural crossroads between Europe, the Balkans and the Eastern Mediterranean. The 2026 (22nd) edition's Guest of Honour is Bulgaria.",
+    "visitor_info": "Open to both trade professionals and the general public.",
     "audience": ["readers", "authors", "publishers"],
     "tags": ["book fair", "greece", "international"],
-    "highlights": ["Listed in 2026 calendars"],
+    "highlights": ["Cultural hub for Southeast Europe and the Balkans", "2026 Guest of Honour: Bulgaria"],
     "source_urls": [
-      "https://2seasagency.com/international-book-fair-calendar/"
+      "https://thessalonikibookfair.gr/",
+      "https://internationalpublishers.org/22nd-tessaloniki-international-book-fair/",
+      "https://www.tradefairdates.com/Thessaloniki-Book-Fair-M5568/Thessaloniki.html"
     ]
   },
   {
@@ -443,16 +557,21 @@
     "event_name": "Kosovo Book Fair",
     "country": "Kosovo",
     "city": "Pristina",
-    "venue": "Pristina",
+    "venue": "Palace of Youth and Sports",
     "start_date": null,
     "end_date": null,
     "status": "listed",
+    "image": "kosovo-book-fair-2026.jpg",
+    "official_website": null,
     "summary": "A listed regional book fair in Pristina.",
+    "description": "Likely refers to the annual Pristina Book Fair, organized by the Association of Kosova Publishers since 1999 at the Palace of Youth and Sports, drawing around 100 publishers mainly from Kosovo, Albania, North Macedonia and Montenegro. No confirmed 2026 date or official website was found in current sources.",
+    "visitor_info": null,
     "audience": ["readers", "authors", "publishers"],
     "tags": ["book fair", "kosovo", "regional"],
     "highlights": ["Listed in 2026 calendars"],
     "source_urls": [
-      "https://2seasagency.com/international-book-fair-calendar/"
+      "https://en.wikipedia.org/wiki/Prishtina_Book_Fair",
+      "https://www.wikidata.org/wiki/Q78732729"
     ]
   },
   {
@@ -460,16 +579,25 @@
     "event_name": "Qatar International Book Fair",
     "country": "Qatar",
     "city": "Doha",
-    "venue": "Doha",
-    "start_date": null,
-    "end_date": null,
-    "status": "listed",
+    "venue": "Doha Exhibition and Convention Center",
+    "start_date": "2026-05-14",
+    "end_date": "2026-05-23",
+    "status": "confirmed",
+    "image": "qatar-international-book-fair-2026.jpg",
+    "official_website": "https://www.dohabookfair.qa/",
     "summary": "A listed international book fair in Doha.",
+    "description": "First held in 1972 and annual since 2002, this is one of the region's oldest and largest book fairs. The 2025 edition set records with 522 publishing houses from 43 countries and over 166,000 titles; the 2026 (35th) edition's theme is 'From Engraving to Writing.'",
+    "visitor_info": "Free entry; most days open 9am\u201310pm (later start on Fridays).",
     "audience": ["readers", "authors", "publishers"],
     "tags": ["book fair", "qatar", "international"],
-    "highlights": ["Listed in 2026 calendars"],
+    "highlights": ["One of the region's oldest book fairs (since 1972)", "Free entry"],
     "source_urls": [
-      "https://2seasagency.com/international-book-fair-calendar/"
+      "https://www.dohabookfair.qa/en/",
+      "https://thenewpublishingstandard.com/2025/12/31/doha-book-fair-2026-registration-opens/",
+      "https://marhaba.qa/event/doha-international-book-fair-2026/"
     ]
   }
+  
 ]
+
+

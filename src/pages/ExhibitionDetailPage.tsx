@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import {
   ArrowLeft, Calendar, MapPin, CheckCircle2, Clock, ArrowRight,
-  Users,  ArrowUpRight,
+  Users, ArrowUpRight
 } from "lucide-react";
 
 import { getExhibitionBySlug, EXHIBITIONS } from "../data/adaptExhibitions";
@@ -59,9 +59,11 @@ export default function ExhibitionDetailPage() {
               {e.flag} {e.cityKnown ? `${e.city}, ` : ""}{e.country}
             </span>
             <span className={`inline-flex items-center gap-1.5 rounded-md px-3 py-1 text-xs font-semibold ${
-              e.status === "confirmed" ? "bg-gold text-navy" : "bg-cream/90 text-charcoal"
+              e.status === "confirmed" ? "bg-gold text-navy" : e.status === "verified" ? "bg-cream text-navy" : "bg-cream/90 text-charcoal"
             }`}>
-              {e.status === "confirmed" ? <CheckCircle2 className="h-3.5 w-3.5" /> : <Clock className="h-3.5 w-3.5" />}
+              {e.status === "confirmed" || e.status === "verified"
+                ? <CheckCircle2 className="h-3.5 w-3.5" />
+                : <Clock className="h-3.5 w-3.5" />}
               {e.statusLabel}
             </span>
           </div>
@@ -82,7 +84,9 @@ export default function ExhibitionDetailPage() {
         <div className="grid gap-10 lg:grid-cols-[1.6fr_1fr]">
           <div>
             <h2 className="font-display text-xl text-navy">About this exhibition</h2>
-            <p className="mt-3 leading-relaxed text-charcoal/75">{e.summary}</p>
+            <p className="mt-3 leading-relaxed text-charcoal/75">{e.description}</p>
+
+            
 
             {e.highlights.length > 0 && (
               <div className="mt-8">
@@ -126,7 +130,7 @@ export default function ExhibitionDetailPage() {
               </div>
             )}
 
-            
+        
           </div>
 
           {/* Sidebar */}
@@ -155,9 +159,11 @@ export default function ExhibitionDetailPage() {
               </div>
             </dl>
 
+            
+
             <Link
               to={`/register?fair=${e.slug}`}
-              className="mt-6 flex w-full items-center justify-center gap-2 rounded-md bg-gold px-4 py-2.5 text-sm font-semibold text-navy hover:bg-gold/90 transition-colors"
+              className="mt-3 flex w-full items-center justify-center gap-2 rounded-md bg-gold px-4 py-2.5 text-sm font-semibold text-navy hover:bg-gold/90 transition-colors"
             >
               Apply to exhibit <ArrowRight className="h-4 w-4" />
             </Link>

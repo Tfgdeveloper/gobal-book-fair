@@ -2,9 +2,11 @@ import raw from "./exhibitions.json";
 
 /* ─────────────────────── Raw JSON shape ───────────────────────
    This mirrors what's in exhibitions.json. The source has changed
-   shape once already (from { events: [...] } to a bare array), so
-   normalizeRaw() below accepts either — if it changes shape again,
-   that's the only place to update. */
+   shape before (bare array vs { events: [...] }), so normalizeRaw()
+   below accepts either. It has also grown new optional fields
+   (image, official_website, description, visitor_info) as the
+   dataset has been enriched — those are optional here so older,
+   unenriched entries don't break. */
 
 export interface RawExhibitionEvent {
   slug: string;
@@ -15,7 +17,11 @@ export interface RawExhibitionEvent {
   start_date: string | null;
   end_date: string | null;
   status: "confirmed" | "listed" | "verified";
+  image?: string;                    // filename in src/assets, e.g. "frankfurt-book-fair-2026.jpg"
+  official_website?: string | null;
   summary: string;
+  description?: string;              // fuller write-up; falls back to summary if absent
+  visitor_info?: string | null;
   audience: string[];
   tags: string[];
   highlights: string[];
@@ -42,12 +48,12 @@ function normalizeRaw(input: unknown): { events: RawExhibitionEvent[]; generated
 }
 
 /* ─────────────────────── App-facing shape ───────────────────────
-   Every component (search, map, timeline, cards, detail page) reads
-   from this type. Fields that the source data doesn't provide
-   (booth counts, visitor numbers, an application deadline) are left
-   optional/undefined rather than filled with placeholder numbers —
-   showing a made-up "1,250 publishers" for a real event would be
-   worse than just not showing that stat. */
+   Every component (search, timeline, cards, detail page) reads from
+   this type. Fields the source data doesn't provide for a given
+   event (booth counts, visitor numbers, an application deadline)
+   are left optional/undefined rather than filled with placeholder
+   numbers — a made-up "1,250 publishers" for a real event is worse
+   than not showing that stat. */
 
 export interface Exhibition {
   id: string;
@@ -66,6 +72,9 @@ export interface Exhibition {
   status: "confirmed" | "listed" | "verified";
   statusLabel: string;
   summary: string;
+  description: string;       // fuller text for the detail page; falls back to summary
+  visitorInfo: string | null;
+  officialWebsite: string | null;
   categories: string[];
   audience: string[];
   highlights: string[];
@@ -122,24 +131,26 @@ function flagForCountry(country: string): string {
   return FLAGS[country] ?? "🌐";
 }
 
-/* ─────────────────────── Image fallback ───────────────────────
-   The dataset has no images. Where we happen to already have a real
-   photo for that exact fair, use it; otherwise fall back to a
-   generic placeholder. Add more slug → image mappings as you get
-   real photos for other fairs. */
+/* ─────────────────────── Image resolution ───────────────────────
+   Each event's `image` field is a filename expected to live in
+   src/assets (e.g. "frankfurt-book-fair-2026.jpg"). Vite's
+   import.meta.glob eagerly imports every matching asset at build
+   time, so any file you add under src/assets is picked up
+   automatically — no manual slug → import mapping to maintain.
+   If an event has no `image` field, we assume "<slug>.jpg". If the
+   file isn't found, we fall back to a generic placeholder image. */
 
-import exhFrankfurt from "../assets/exh-frankfurt.jpg";
-import exhAbudhabi from "../assets/exh-abudhabi.jpg";
+const IMAGE_FILES = import.meta.glob("../assets/events/*.{jpg,jpeg,png,webp}", {
+  eager: true,
+  import: "default",
+}) as Record<string, string>;
 
-const exhPlaceholder = exhAbudhabi; // reused as the generic fallback until a dedicated placeholder image is added
-
-const IMAGE_BY_SLUG: Record<string, string> = {
-  "frankfurt-book-fair-2026": exhFrankfurt,
-  "sharjah-international-book-fair-2026": exhAbudhabi,
-};
+const FALLBACK_IMAGE = IMAGE_FILES["../assets/exh-abudhabi.jpg"];
 
 function imageForEvent(e: RawExhibitionEvent): string {
-  return IMAGE_BY_SLUG[e.slug] ?? exhPlaceholder;
+  const filename = e.image ?? `${e.slug}.jpg`;
+  const key = `../assets/events/${filename}`;
+  return IMAGE_FILES[key] ?? FALLBACK_IMAGE ?? "";
 }
 
 /* ─────────────────────── Date formatting ─────────────────────── */
@@ -217,6 +228,9 @@ function adaptOne(e: RawExhibitionEvent): Exhibition {
     status: e.status,
     statusLabel: statusLabelFor(e.status),
     summary: e.summary,
+    description: e.description?.trim() || e.summary,
+    visitorInfo: e.visitor_info ?? null,
+    officialWebsite: e.official_website ?? null,
     categories: e.tags,
     audience: e.audience,
     highlights: e.highlights,
