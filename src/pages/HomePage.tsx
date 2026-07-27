@@ -632,7 +632,7 @@ export function Footer() {
         <div className="grid gap-10 lg:grid-cols-[1.4fr_2.6fr]">
           <div>
             <Link to="/" className="flex items-center gap-2">
-              <img src={logofoot} className="w-60" alt="Global Book Fair" />
+              <img src={logofoot} className="w-55" alt="Global Book Fair" />
             </Link>
             <p className="mt-4 max-w-sm text-sm text-cream/60">
               A directory connecting book fairs, publishers, authors and readers worldwide.
