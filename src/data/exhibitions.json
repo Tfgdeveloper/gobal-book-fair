@@ -1,0 +1,475 @@
+[
+  {
+    "slug": "frankfurt-book-fair-2026",
+    "event_name": "Frankfurt Book Fair",
+    "country": "Germany",
+    "city": "Frankfurt",
+    "venue": "Frankfurt Trade Fair Grounds",
+    "start_date": "2026-10-07",
+    "end_date": "2026-10-11",
+    "status": "confirmed",
+    "summary": "The world's largest book fair and a global hub for publishing, rights sales, and international networking.",
+    "audience": ["publishers", "agents", "distributors", "rights professionals"],
+    "tags": ["book fair", "rights", "international", "publishing"],
+    "highlights": ["World’s largest book fair", "Held in mid-October", "Strong rights and trade focus"],
+    "source_urls": [
+      "https://www.combinedbook.com/book-shows/2026-frankfurt-international-book-fair/",
+      "https://www.buchmesse.de/en/exhibit/information-exhibitors/book-fair-year",
+      "https://en.instaff.jobs/exhibitions/2026/frankfurt/frankfurter-buchmesse-2026/13449"
+    ]
+  },
+  {
+    "slug": "sharjah-international-book-fair-2026",
+    "event_name": "Sharjah International Book Fair",
+    "country": "United Arab Emirates",
+    "city": "Sharjah",
+    "venue": "Sharjah",
+    "start_date": "2026-11-04",
+    "end_date": "2026-11-14",
+    "status": "confirmed",
+    "summary": "A major international book fair in Sharjah with a strong public and publishing focus.",
+    "audience": ["readers", "publishers", "authors", "rights professionals"],
+    "tags": ["book fair", "uae", "international", "publishing"],
+    "highlights": ["One of the largest book fairs in the region", "Public-facing and trade-relevant", "Runs for 11 days"],
+    "source_urls": [
+      "https://www.combinedbook.com/book-shows/",
+      "https://blog.kotobee.com/international-book-fairs-2026/",
+      "https://www.ibby.org/ibby-worldwide/books-fairs-and-other-events"
+    ]
+  },
+  {
+    "slug": "guadalajara-international-book-fair-fil-2026",
+    "event_name": "Guadalajara International Book Fair (FIL)",
+    "country": "Mexico",
+    "city": "Guadalajara",
+    "venue": "Guadalajara",
+    "start_date": "2026-11-28",
+    "end_date": "2026-12-06",
+    "status": "confirmed",
+    "summary": "A major international book fair in Guadalajara and one of the most important publishing events in the Americas.",
+    "audience": ["publishers", "agents", "authors", "readers"],
+    "tags": ["book fair", "mexico", "publishing", "rights"],
+    "highlights": ["Major publishing market event", "Spans late November into December", "Large international attendance"],
+    "source_urls": [
+      "https://www.ibby.org/ibby-worldwide/books-fairs-and-other-events",
+      "https://blog.kotobee.com/international-book-fairs-2026/",
+      "https://www.publishersweekly.com/pw/by-topic/international/trade-shows/archive.html"
+    ]
+  },
+  {
+    "slug": "gothenburg-book-fair-2026",
+    "event_name": "Gothenburg Book Fair",
+    "country": "Sweden",
+    "city": "Gothenburg",
+    "venue": "Gothenburg",
+    "start_date": "2026-09-24",
+    "end_date": "2026-09-27",
+    "status": "confirmed",
+    "summary": "The Nordic region's largest meeting place for the written word.",
+    "audience": ["readers", "publishers", "authors", "educators"],
+    "tags": ["book fair", "sweden", "nordic", "literature"],
+    "highlights": ["Nordic region’s largest meeting place for the written word", "Strong literary and publishing presence"],
+    "source_urls": [
+      "https://www.goteborg.com/en/events/gothenburg-book-fair/",
+      "https://2seasagency.com/international-book-fair-calendar/"
+    ]
+  },
+  {
+    "slug": "beijing-international-book-fair-bibf-2026",
+    "event_name": "Beijing International Book Fair (BIBF)",
+    "country": "China",
+    "city": "Beijing",
+    "venue": "Beijing",
+    "start_date": "2026-08-26",
+    "end_date": "2026-08-30",
+    "status": "confirmed",
+    "summary": "A major publishing and rights event in Beijing with strong international participation.",
+    "audience": ["publishers", "agents", "rights professionals", "industry visitors"],
+    "tags": ["book fair", "china", "publishing", "rights"],
+    "highlights": ["Major rights and publishing event", "International industry participation", "Held in late August"],
+    "source_urls": [
+      "https://www.ibby.org/ibby-worldwide/books-fairs-and-other-events",
+      "https://citiofbooks.com/international-book-exhibit/",
+      "https://www.combinedbook.com/book-shows/"
+    ]
+  },
+  {
+    "slug": "hong-kong-book-fair-2026",
+    "event_name": "Hong Kong Book Fair",
+    "country": "Hong Kong",
+    "city": "Hong Kong",
+    "venue": "Hong Kong",
+    "start_date": "2026-07-15",
+    "end_date": "2026-07-21",
+    "status": "verified",
+    "summary": "A major public and international book fair in Hong Kong.",
+    "audience": ["readers", "publishers", "authors", "general public"],
+    "tags": ["book fair", "hong kong", "public", "international"],
+    "highlights": ["Large public book fair", "International participation", "Summer event"],
+    "source_urls": [
+      "https://www.ibby.org/ibby-worldwide/books-fairs-and-other-events",
+      "https://citiofbooks.com/international-book-exhibit/"
+    ]
+  },
+  {
+    "slug": "colombo-international-book-fair-2026",
+    "event_name": "Colombo International Book Fair",
+    "country": "Sri Lanka",
+    "city": "Colombo",
+    "venue": "Colombo",
+    "start_date": "2026-09-21",
+    "end_date": "2026-09-30",
+    "status": "confirmed",
+    "summary": "A major public book fair in Colombo with a long-running tradition.",
+    "audience": ["readers", "authors", "publishers", "students"],
+    "tags": ["book fair", "sri lanka", "public", "publishing"],
+    "highlights": ["Long-running fair", "Broad public audience", "Runs through late September"],
+    "source_urls": [
+      "https://2seasagency.com/international-book-fair-calendar/"
+    ]
+  },
+  {
+    "slug": "brooklyn-book-festival-2026",
+    "event_name": "Brooklyn Book Festival",
+    "country": "United States",
+    "city": "New York",
+    "venue": "Brooklyn",
+    "start_date": "2026-09-20",
+    "end_date": "2026-09-28",
+    "status": "confirmed",
+    "summary": "A major literary festival in Brooklyn featuring authors, readers, and community programming.",
+    "audience": ["readers", "authors", "families", "community"],
+    "tags": ["festival", "new york", "literature", "community"],
+    "highlights": ["Popular literary festival", "Large community focus", "Multiple event days"],
+    "source_urls": [
+      "https://www.brooklynbookfestival.org/",
+      "https://www.c-span.org/bookTv/?bookfairs"
+    ]
+  },
+  {
+    "slug": "belgrade-international-book-fair-2026",
+    "event_name": "Belgrade International Book Fair",
+    "country": "Serbia",
+    "city": "Belgrade",
+    "venue": "Belgrade",
+    "start_date": "2026-10-17",
+    "end_date": "2026-10-25",
+    "status": "confirmed",
+    "summary": "A major international book fair in Belgrade held in late October.",
+    "audience": ["readers", "authors", "publishers"],
+    "tags": ["book fair", "serbia", "international", "publishing"],
+    "highlights": ["Runs for nine days", "Important regional publishing event"],
+    "source_urls": [
+      "https://2seasagency.com/international-book-fair-calendar/"
+    ]
+  },
+  {
+    "slug": "liber-international-book-fair-2026",
+    "event_name": "Liber International Book Fair",
+    "country": "Spain",
+    "city": "Madrid/Barcelona",
+    "venue": "Spain",
+    "start_date": "2026-09-29",
+    "end_date": "2026-10-01",
+    "status": "confirmed",
+    "summary": "A major publishing fair in Spain focused on the book trade and rights industry.",
+    "audience": ["publishers", "agents", "rights professionals", "industry visitors"],
+    "tags": ["book fair", "spain", "publishing", "rights"],
+    "highlights": ["Publishing-focused fair", "Spans late September and early October"],
+    "source_urls": [
+      "https://2seasagency.com/international-book-fair-calendar/"
+    ]
+  },
+  {
+    "slug": "buch-wien-2026",
+    "event_name": "Buch Wien",
+    "country": "Austria",
+    "city": "Vienna",
+    "venue": "Vienna",
+    "start_date": null,
+    "end_date": null,
+    "status": "listed",
+    "summary": "A listed book fair in Vienna.",
+    "audience": ["readers", "authors", "publishers"],
+    "tags": ["book fair", "austria", "literature"],
+    "highlights": ["Listed in 2026 fair calendars"],
+    "source_urls": [
+      "https://www.ibby.org/ibby-worldwide/books-fairs-and-other-events"
+    ]
+  },
+  {
+    "slug": "istanbul-book-fair-2026",
+    "event_name": "Istanbul Book Fair",
+    "country": "Türkiye",
+    "city": "Istanbul",
+    "venue": "Istanbul",
+    "start_date": null,
+    "end_date": null,
+    "status": "listed",
+    "summary": "A listed book fair in Istanbul.",
+    "audience": ["readers", "authors", "publishers"],
+    "tags": ["book fair", "turkiye", "international"],
+    "highlights": ["Listed in 2026 book fair calendars"],
+    "source_urls": [
+      "https://2seasagency.com/international-book-fair-calendar/"
+    ]
+  },
+  {
+    "slug": "moscow-international-book-fair-2026",
+    "event_name": "Moscow International Book Fair",
+    "country": "Russia",
+    "city": "Moscow",
+    "venue": "Moscow",
+    "start_date": null,
+    "end_date": null,
+    "status": "listed",
+    "summary": "A listed book fair in Moscow.",
+    "audience": ["readers", "authors", "publishers"],
+    "tags": ["book fair", "russia", "international"],
+    "highlights": ["Listed in 2026 book fair calendars"],
+    "source_urls": [
+      "https://2seasagency.com/international-book-fair-calendar/"
+    ]
+  },
+  {
+    "slug": "nairobi-international-book-fair-2026",
+    "event_name": "Nairobi International Book Fair",
+    "country": "Kenya",
+    "city": "Nairobi",
+    "venue": "Nairobi",
+    "start_date": "2026-09-25",
+    "end_date": "2026-09-30",
+    "status": "confirmed",
+    "summary": "A major book fair in Nairobi listed for late September 2026.",
+    "audience": ["readers", "authors", "publishers"],
+    "tags": ["book fair", "kenya", "publishing"],
+    "highlights": ["Listed with confirmed September dates"],
+    "source_urls": [
+      "https://2seasagency.com/international-book-fair-calendar/"
+    ]
+  },
+  {
+    "slug": "indonesia-international-book-fair-2026",
+    "event_name": "Indonesia International Book Fair",
+    "country": "Indonesia",
+    "city": "Jakarta",
+    "venue": "Jakarta",
+    "start_date": null,
+    "end_date": null,
+    "status": "listed",
+    "summary": "A listed book fair in Jakarta.",
+    "audience": ["readers", "authors", "publishers"],
+    "tags": ["book fair", "indonesia", "publishing"],
+    "highlights": ["Listed in 2026 book fair calendars"],
+    "source_urls": [
+      "https://2seasagency.com/international-book-fair-calendar/"
+    ]
+  },
+  {
+    "slug": "national-book-festival-2026",
+    "event_name": "National Book Festival",
+    "country": "United States",
+    "city": "Washington, D.C.",
+    "venue": "Walter E. Washington Convention Center",
+    "start_date": "2026-08-22",
+    "end_date": "2026-08-22",
+    "status": "confirmed",
+    "summary": "A major public literary festival hosted by the Library of Congress.",
+    "audience": ["readers", "families", "authors", "general public"],
+    "tags": ["festival", "public event", "authors", "literature"],
+    "highlights": ["Free and open to the public", "Tickets are required", "Selected programs are livestreamed"],
+    "source_urls": [
+      "https://www.loc.gov/events/2026-national-book-festival/",
+      "https://newsroom.loc.gov/news/library-to-host-26th-national-book-festival-in-august-2026/s/81b2c74b-c263-46cc-b3ed-f91974bf4c8e",
+      "https://www.loc.gov/programs/national-book-festival/about-this-program/"
+    ]
+  },
+  {
+    "slug": "edinburgh-international-book-festival-2026",
+    "event_name": "Edinburgh International Book Festival",
+    "country": "Scotland",
+    "city": "Edinburgh",
+    "venue": "Edinburgh",
+    "start_date": "2026-08-15",
+    "end_date": "2026-08-30",
+    "status": "confirmed",
+    "summary": "A literary festival in Edinburgh listed for August 2026.",
+    "audience": ["readers", "writers", "publishing professionals"],
+    "tags": ["festival", "literature", "scotland"],
+    "highlights": ["Listed with August dates in the calendar"],
+    "source_urls": [
+      "https://2seasagency.com/international-book-fair-calendar/"
+    ]
+  },
+  {
+    "slug": "helsinki-book-fair-2026",
+    "event_name": "Helsinki Book Fair",
+    "country": "Finland",
+    "city": "Helsinki",
+    "venue": "Helsinki",
+    "start_date": "2026-10-22",
+    "end_date": "2026-10-25",
+    "status": "confirmed",
+    "summary": "A Helsinki book fair listed for late October 2026.",
+    "audience": ["readers", "authors", "publishers"],
+    "tags": ["book fair", "finland", "publishing"],
+    "highlights": ["Listed with confirmed October dates"],
+    "source_urls": [
+      "https://2seasagency.com/international-book-fair-calendar/"
+    ]
+  },
+  {
+    "slug": "brive-book-fair-2026",
+    "event_name": "Brive Book Fair",
+    "country": "France",
+    "city": "Brive-la-Gaillarde",
+    "venue": "Brive-la-Gaillarde",
+    "start_date": null,
+    "end_date": null,
+    "status": "listed",
+    "summary": "A listed book fair in Brive-la-Gaillarde.",
+    "audience": ["readers", "authors", "publishers"],
+    "tags": ["book fair", "france", "literature"],
+    "highlights": ["Listed in 2026 book fair calendars"],
+    "source_urls": [
+      "https://2seasagency.com/international-book-fair-calendar/"
+    ]
+  },
+  {
+    "slug": "miami-book-fair-2026",
+    "event_name": "Miami Book Fair",
+    "country": "United States",
+    "city": "Miami",
+    "venue": "Miami",
+    "start_date": null,
+    "end_date": null,
+    "status": "listed",
+    "summary": "A major literary festival in Miami.",
+    "audience": ["readers", "authors", "families", "community"],
+    "tags": ["festival", "miami", "literature"],
+    "highlights": ["Featured literary festival", "Listed in book festival calendars"],
+    "source_urls": [
+      "https://www.bookreporter.com/book-festivals",
+      "https://texasbookfestival.org/"
+    ]
+  },
+  {
+    "slug": "irish-book-festival-2026",
+    "event_name": "Irish Book Festival",
+    "country": "Ireland",
+    "city": "Dublin",
+    "venue": "Dublin",
+    "start_date": null,
+    "end_date": null,
+    "status": "listed",
+    "summary": "A listed literary event in Dublin.",
+    "audience": ["readers", "authors", "publishers"],
+    "tags": ["festival", "ireland", "literature"],
+    "highlights": ["Listed in 2026 calendars"],
+    "source_urls": [
+      "https://2seasagency.com/international-book-fair-calendar/"
+    ]
+  },
+  {
+    "slug": "buchbasel-2026",
+    "event_name": "BuchBasel",
+    "country": "Switzerland",
+    "city": "Basel",
+    "venue": "Basel",
+    "start_date": null,
+    "end_date": null,
+    "status": "listed",
+    "summary": "A listed literary fair in Basel.",
+    "audience": ["readers", "authors", "publishers"],
+    "tags": ["literature", "switzerland", "festival"],
+    "highlights": ["Listed in 2026 calendars"],
+    "source_urls": [
+      "https://2seasagency.com/international-book-fair-calendar/"
+    ]
+  },
+  {
+    "slug": "singapore-writers-festival-2026",
+    "event_name": "Singapore Writers Festival",
+    "country": "Singapore",
+    "city": "Singapore",
+    "venue": "Singapore",
+    "start_date": null,
+    "end_date": null,
+    "status": "listed",
+    "summary": "A listed literary festival in Singapore.",
+    "audience": ["readers", "writers", "authors"],
+    "tags": ["festival", "singapore", "literature"],
+    "highlights": ["Listed in 2026 calendars"],
+    "source_urls": [
+      "https://2seasagency.com/international-book-fair-calendar/"
+    ]
+  },
+  {
+    "slug": "malta-book-festival-2026",
+    "event_name": "Malta Book Festival",
+    "country": "Malta",
+    "city": "Ta' Qali",
+    "venue": "Ta' Qali",
+    "start_date": null,
+    "end_date": null,
+    "status": "listed",
+    "summary": "A listed publishing and literary event in Malta.",
+    "audience": ["readers", "authors", "publishers"],
+    "tags": ["book festival", "malta", "publishing"],
+    "highlights": ["Listed in 2026 calendars"],
+    "source_urls": [
+      "https://2seasagency.com/international-book-fair-calendar/"
+    ]
+  },
+  {
+    "slug": "thessaloniki-book-fair-2026",
+    "event_name": "Thessaloniki Book Fair",
+    "country": "Greece",
+    "city": "Thessaloniki",
+    "venue": "Thessaloniki",
+    "start_date": null,
+    "end_date": null,
+    "status": "listed",
+    "summary": "A listed international book fair in Thessaloniki.",
+    "audience": ["readers", "authors", "publishers"],
+    "tags": ["book fair", "greece", "international"],
+    "highlights": ["Listed in 2026 calendars"],
+    "source_urls": [
+      "https://2seasagency.com/international-book-fair-calendar/"
+    ]
+  },
+  {
+    "slug": "kosovo-book-fair-2026",
+    "event_name": "Kosovo Book Fair",
+    "country": "Kosovo",
+    "city": "Pristina",
+    "venue": "Pristina",
+    "start_date": null,
+    "end_date": null,
+    "status": "listed",
+    "summary": "A listed regional book fair in Pristina.",
+    "audience": ["readers", "authors", "publishers"],
+    "tags": ["book fair", "kosovo", "regional"],
+    "highlights": ["Listed in 2026 calendars"],
+    "source_urls": [
+      "https://2seasagency.com/international-book-fair-calendar/"
+    ]
+  },
+  {
+    "slug": "qatar-international-book-fair-2026",
+    "event_name": "Qatar International Book Fair",
+    "country": "Qatar",
+    "city": "Doha",
+    "venue": "Doha",
+    "start_date": null,
+    "end_date": null,
+    "status": "listed",
+    "summary": "A listed international book fair in Doha.",
+    "audience": ["readers", "authors", "publishers"],
+    "tags": ["book fair", "qatar", "international"],
+    "highlights": ["Listed in 2026 calendars"],
+    "source_urls": [
+      "https://2seasagency.com/international-book-fair-calendar/"
+    ]
+  }
+]

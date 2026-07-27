@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss" ; 
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-display: "Fraunces", "Playfair Display", Georgia, serif;
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-navy: var(--navy);
+  --color-navy-deep: var(--navy-deep);
+  --color-navy-soft: var(--navy-soft);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-button-gold: var(--button-gold);
+  --color-cream: var(--cream);
+  --color-charcoal: var(--charcoal);
+  --color-muted-ink: var(--muted-ink);
+}
+
+:root {
+  --radius: 0.75rem;
+
+  /* Brand palette — from logo, every value below is a flat solid color (no gradients) */
+  --navy: #000033;        /* Logo deep navy */
+  --navy-deep: #00001a;   /* Solid darker navy, for deepest panels/footers */
+  --navy-soft: #12163f;   /* Solid lighter navy, for subtle borders/hover on dark sections */
+  --gold: #B8860B;        /* Logo antique gold */
+  --gold-soft: #d9b65b;   /* Solid lighter gold tint, hand-picked (not blended) */
+  --button-gold: #F2D031; /* Solid bright yellow-gold, CTA only */
+  --cream: #f8f4ed;
+  --charcoal: #2d2d2d;    /* True neutral gray, no purple/blue lean */
+  --muted-ink: #6b7280;   /* True neutral gray, no purple/blue lean */
+
+  /* Semantic tokens */
+  --background: var(--cream);
+  --foreground: var(--charcoal);
+  --card: #ffffff;
+  --card-foreground: var(--charcoal);
+  --popover: #ffffff;
+  --popover-foreground: var(--charcoal);
+  --primary: var(--navy);
+  --primary-foreground: #fdfbf7;
+  --secondary: #f0ebdf;
+  --secondary-foreground: var(--navy);
+  --muted: #f0ece3;
+  --muted-foreground: var(--muted-ink);
+  --accent: var(--gold);
+  --accent-foreground: var(--navy);
+  --destructive: #b3261e;
+  --destructive-foreground: #fafafa;
+  --border: #e6e0d3;
+  --input: #e9e3d6;
+  --ring: var(--gold);
+
+  /* Shadows: solid rgba values, no gradients */
+  --shadow-soft: 0 1px 2px rgba(0, 0, 51, 0.08), 0 8px 24px rgba(0, 0, 51, 0.1);
+  --shadow-lift: 0 10px 40px -12px rgba(0, 0, 51, 0.3);
+  --shadow-gold: 0 10px 40px -12px rgba(242, 208, 49, 0.5);
+}
+
+@layer base {
+  * { border-color: var(--color-border); }
+  html { scroll-behavior: smooth; }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "cv11";
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    font-optical-sizing: auto;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Utilities
+   Class names are unchanged from earlier passes so existing components
+   don't need edits — only the values behind them changed, and every
+   background/text-fill below is now a single flat color. */
+@utility text-gold { color: var(--gold); }
+@utility bg-navy { background-color: var(--navy); }
+@utility bg-navy-deep { background-color: var(--navy-deep); }
+@utility bg-cream { background-color: var(--cream); }
+@utility text-navy { color: var(--navy); }
+@utility text-cream { color: var(--cream); }
+@utility border-gold { border-color: var(--gold); }
+
+/* Was a two-layer radial + linear gradient; now a flat navy fill.
+   Class name kept as "hero-gradient" for compatibility with existing JSX. */
+@utility hero-gradient { background: var(--navy); }
+
+/* Was linear-gradient(gold-soft, gold); now a flat gold fill.
+   Used by the "How It Works" step-icon circles. */
+@utility gold-gradient { background: var(--gold); }
+
+/* Dot texture: previously drawn with radial-gradient(); now drawn with a
+   tiny inline SVG dot instead, so no CSS gradient function is used at all. */
+
+
+@utility glass {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(20px) saturate(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+@utility glass-light {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px) saturate(160%);
+  border: 1px solid rgba(230, 224, 211, 0.6);
+}
+
+@utility shadow-soft { box-shadow: var(--shadow-soft); }
+@utility shadow-lift { box-shadow: var(--shadow-lift); }
+@utility shadow-gold { box-shadow: var(--shadow-gold); }
+
+/* Was a clip-text gradient; now flat gold text, same class name. */
+@utility gold-text-gradient { color: var(--gold); }
+
+/* Was a fading linear-gradient line; now a solid gold hairline. */
+@utility divider-gold {
+  height: 2px;
+  background: var(--gold);
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-14px) rotate(1deg); }
+}
+@keyframes float-mid {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+@keyframes spin-slow { to { transform: rotate(360deg); } }
+@keyframes pulse-gold {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(184, 134, 11, 0.6); }
+  50% { box-shadow: 0 0 0 12px rgba(184, 134, 11, 0); }
+}
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+@keyframes rise {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@utility animate-float-slow { animation: float-slow 7s ease-in-out infinite; }
+@utility animate-float-mid { animation: float-mid 4.5s ease-in-out infinite; }
+@utility animate-spin-slow { animation: spin-slow 40s linear infinite; }
+@utility animate-pulse-gold { animation: pulse-gold 2.6s ease-out infinite; }
+@utility animate-rise { animation: rise 0.7s ease-out both; }
+
+@utility hover-lift {
+  transition: transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1), box-shadow 0.35s;
+  &:hover { transform: translateY(-6px); box-shadow: var(--shadow-lift); }
+}
+
+/* Was background: var(--gradient-gold); now a flat button-gold fill. */
+@utility btn-gold {
+  background: var(--button-gold);
+  color: var(--navy);
+  font-weight: 600;
+  transition: all 0.3s;
+  &:hover { box-shadow: var(--shadow-gold); transform: translateY(-2px); }
+}
+
+@utility ring-gold-glow {
+  box-shadow: 0 0 0 1px var(--gold), 0 0 40px -6px rgba(184, 134, 11, 0.6);
+}
